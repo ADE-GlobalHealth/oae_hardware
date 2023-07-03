@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "ade_oae")(type "KiCad")(uri "/Users/wsh32/projects/ade/oae_hardware/lib/ade_oae.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "ade_oae")(type "KiCad")(uri "C:/Users/veswaranandam/OneDrive - Olin College of Engineering/Desktop/ADE Global Health/oae_hardware/lib/ade_oae.kicad_sym")(options "")(descr ""))
 )

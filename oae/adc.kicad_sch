@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid 7e7b8ea5-9941-47ad-aa89-670ebd77f6b0)
 
@@ -7,4 +7,21 @@
   (lib_symbols
   )
 
+
+  (sheet (at 43.18 60.96) (size 46.99 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2604763a-d7f3-46e8-b8fe-c57329b542da)
+    (property "Sheetname" "Communications" (at 43.18 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "adc_communications.kicad_sch" (at 43.18 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oae"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4" (page "9"))
+      )
+    )
+  )
 )
