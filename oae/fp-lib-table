@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "footprints")(type "KiCad")(uri "C:/Users/veswaranandam/OneDrive - Olin College of Engineering/Desktop/ADE Global Health/oae_hardware/lib/footprints.pretty")(options "")(descr ""))
+  (lib (name "oae_mod")(type "KiCad")(uri "/home/quantumkimonos/oae_hardware/lib/oae_mod")(options "")(descr ""))
 )

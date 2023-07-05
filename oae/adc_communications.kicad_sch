@@ -348,10 +348,10 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 184.15 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e786260-8004-4d96-b598-f413351a784f)
-    (property "Reference" "JP1" (at 184.15 97.79 0)
+    (property "Reference" "JP801" (at 184.15 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SolderJumper_2_Open" (at 184.15 100.33 0)
+    (property "Value" "SolderJumper_2_Open" (at 184.15 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" (at 184.15 102.87 0)
@@ -365,7 +365,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4/2604763a-d7f3-46e8-b8fe-c57329b542da"
-          (reference "JP1") (unit 1)
+          (reference "JP801") (unit 1)
         )
       )
     )
@@ -374,13 +374,13 @@
   (symbol (lib_id "Device:R_Small") (at 95.25 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bc5718b-8f71-4195-9b2a-dcd153f9f413)
-    (property "Reference" "R1" (at 97.79 75.565 0)
+    (property "Reference" "R801" (at 97.79 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7K" (at 97.79 78.105 0)
+    (property "Value" "4.7K" (at 97.79 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 95.25 76.2 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 95.25 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 76.2 0)
@@ -391,7 +391,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4/2604763a-d7f3-46e8-b8fe-c57329b542da"
-          (reference "R1") (unit 1)
+          (reference "R801") (unit 1)
         )
       )
     )
@@ -400,7 +400,7 @@
   (symbol (lib_id "power:+3.3V") (at 93.98 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 872213cb-5bc2-4e41-8f67-9c629be12af3)
-    (property "Reference" "#PWR02" (at 93.98 90.17 0)
+    (property "Reference" "#PWR0105" (at 93.98 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 93.98 82.55 0)
@@ -416,7 +416,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4/2604763a-d7f3-46e8-b8fe-c57329b542da"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -425,7 +425,7 @@
   (symbol (lib_id "power:+3.3V") (at 95.25 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8efaddeb-8353-4b93-926f-221d46ea09b0)
-    (property "Reference" "#PWR01" (at 95.25 76.2 0)
+    (property "Reference" "#PWR0106" (at 95.25 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 95.25 68.58 0)
@@ -441,7 +441,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4/2604763a-d7f3-46e8-b8fe-c57329b542da"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -450,10 +450,10 @@
   (symbol (lib_id "Device:R_Small") (at 93.98 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca80d9a2-d31a-4b4a-8119-0255b9a953b8)
-    (property "Reference" "R2" (at 96.52 89.535 0)
+    (property "Reference" "R802" (at 96.52 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7K" (at 96.52 92.075 0)
+    (property "Value" "4.7K" (at 96.52 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 93.98 90.17 0)
@@ -467,7 +467,7 @@
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4/2604763a-d7f3-46e8-b8fe-c57329b542da"
-          (reference "R2") (unit 1)
+          (reference "R802") (unit 1)
         )
       )
     )
