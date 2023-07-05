@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "ade_oae")(type "KiCad")(uri "/Users/wsh32/projects/ade/oae_hardware/lib/ade_oae.kicad_sym")(options "")(descr ""))
+  (version 7)
+  (lib (name "ade_oae")(type "KiCad")(uri "/home/quantumkimonos/oae_hardware/lib/oae_sym/ade_oae.kicad_sym")(options "")(descr ""))
 )
