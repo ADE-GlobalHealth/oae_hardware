@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "ade_oae")(type "KiCad")(uri "/home/quantumkimonos/oae_hardware/lib/oae_sym/ade_oae.kicad_sym")(options "")(descr ""))
-)
