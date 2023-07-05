@@ -401,7 +401,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "ignore",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -516,12 +516,12 @@
       "Microcontroller"
     ],
     [
-      "169c3de2-c7c8-4610-b91b-a9f8fbbda482",
-      "Speaker Amps"
-    ],
-    [
       "eb102f03-2731-4f1a-bee7-0755c9304ce3",
       "Bypass Capacitors for Microcontroller"
+    ],
+    [
+      "169c3de2-c7c8-4610-b91b-a9f8fbbda482",
+      "Speaker Amps"
     ],
     [
       "03c7f4ef-720f-48a4-8072-c0223759fc16",
