@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.55,
-          "width": 0.3
+          "height": 0.95,
+          "width": 0.975
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -176,6 +176,8 @@
       ],
       "track_widths": [
         0.0,
+        0.01,
+        0.0254,
         0.1524,
         0.254,
         0.381,
@@ -447,7 +449,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../oaeV2.net",
+      "netlist": "../oae.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
