@@ -176,6 +176,8 @@
       ],
       "track_widths": [
         0.0,
+        0.01,
+        0.0254,
         0.1524,
         0.254,
         0.381,
@@ -447,7 +449,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../oaeV2.net",
+      "netlist": "../oae.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
