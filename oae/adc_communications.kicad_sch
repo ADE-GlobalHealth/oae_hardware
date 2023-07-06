@@ -373,21 +373,21 @@
 
   (symbol (lib_id "Device:R_Small") (at 95.25 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5bc5718b-8f71-4195-9b2a-dcd153f9f413)
+    (uuid 68023aa6-01ed-49e7-be22-0f73752eb5d6)
     (property "Reference" "R1" (at 97.79 75.565 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 97.79 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 95.25 76.2 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 95.25 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca2eadfe-3d99-4789-9eda-6e22f91c06a3))
-    (pin "2" (uuid 29dd2aaa-c9d8-43c0-a7aa-1eb75f8712c1))
+    (pin "1" (uuid c50ca7df-8294-4a6d-825d-dcad282f5167))
+    (pin "2" (uuid cce99b3c-c426-471f-84fc-cde3ad7d3415))
     (instances
       (project "oae"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4/2604763a-d7f3-46e8-b8fe-c57329b542da"
