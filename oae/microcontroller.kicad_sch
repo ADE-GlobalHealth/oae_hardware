@@ -1582,7 +1582,7 @@
     (property "Value" "8MHz" (at 64.77 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "OAE:XTAL_ABMM2-8.000MHZ-E2-T" (at 64.77 118.11 0)
+    (property "Footprint" "oae_mod:XTAL_ABMM2-8.000MHZ-E2-T" (at 64.77 118.11 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 64.77 118.11 0)

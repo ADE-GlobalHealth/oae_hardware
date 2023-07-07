@@ -972,7 +972,7 @@
     (property "Value" "USB_C_Micro" (at 64.77 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "OAE:GCT_USB4105-GF-A" (at 64.77 59.69 0)
+    (property "Footprint" "oae_mod:GCT_USB4105-GF-A" (at 64.77 59.69 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 64.77 59.69 0)
