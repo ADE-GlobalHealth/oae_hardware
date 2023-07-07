@@ -634,7 +634,11 @@
     (uuid f14599a4-2b71-4ec9-bd66-4a81e83229a4)
   )
 
-  (text "Op Amp gain:\n\ngain = -Rf/Rin = 0.05\n\n3 V ish signal -> 150 mV signal (centered around 1V65)"
+  (text "Worried about signal center\nNote down speakers" (at 161.29 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6cbe0f04-f0d1-464a-863a-058396535875)
+  )
+  (text "Op Amp gain:\n\ngain = -Rf/Rin = 0.05\n\n3 V ish signal -> 150 mV signal \ninvestigate center (centered around 0)"
     (at 132.08 98.425 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6e0f5c9e-2678-48d8-86b7-153bae3db567)
