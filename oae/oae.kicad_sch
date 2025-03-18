@@ -206,7 +206,45 @@
 		)
 	)
 	(sheet
-		(at 166.37 130.81)
+		(at 165.1 71.12)
+		(size 24.13 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e1aa5ece-12fa-4a4b-97b6-c8e4beb57fdc")
+		(property "Sheetname" "BMS"
+			(at 165.1 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BMS.kicad_sch"
+			(at 165.1 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oae"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 109.22)
 		(size 31.75 11.43)
 		(fields_autoplaced yes)
 		(stroke
@@ -218,7 +256,7 @@
 		)
 		(uuid "f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4")
 		(property "Sheetname" "ADC"
-			(at 166.37 130.0984 0)
+			(at 90.17 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +265,7 @@
 			)
 		)
 		(property "Sheetfile" "adc.kicad_sch"
-			(at 166.37 142.8246 0)
+			(at 90.17 121.2346 0)
 			(effects
 				(font
 					(size 1.27 1.27)

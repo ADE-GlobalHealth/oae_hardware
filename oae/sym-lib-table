@@ -4,4 +4,5 @@
   (lib (name "ade_oae")(type "KiCad")(uri "${OAE}/lib/oae_sym/ade_oae.kicad_sym")(options "")(descr ""))
   (lib (name "MCP6022-I_SN")(type "KiCad")(uri "${OAE}/lib/oae_sym/MCP6022-I_SN.kicad_sym")(options "")(descr ""))
   (lib (name "USB4105-GF-A")(type "KiCad")(uri "${OAE}/lib/oae_sym/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "New_Library")(type "KiCad")(uri "${OAE}/charging_board/New_Library.kicad_sym")(options "")(descr ""))
 )

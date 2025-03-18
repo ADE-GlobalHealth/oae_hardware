@@ -642,6 +642,10 @@
     [
       "f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4",
       "ADC"
+    ],
+    [
+      "e1aa5ece-12fa-4a4b-97b6-c8e4beb57fdc",
+      "BMS"
     ]
   ],
   "text_variables": {}
