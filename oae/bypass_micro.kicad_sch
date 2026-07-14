@@ -1,14 +1,18 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "acd09e9c-71b1-44b1-b4b1-7e32d519f348")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -78,10 +82,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -90,10 +94,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -139,6 +143,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -216,7 +221,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -228,7 +233,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -242,7 +247,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -259,6 +265,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -338,7 +345,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -355,7 +363,96 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "VBat (1)"
+		(exclude_from_sim no)
+		(at 49.53 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29175dc7-ba34-474c-9847-7567b6855f83")
+	)
+	(text "VDD (64/63)"
+		(exclude_from_sim no)
+		(at 93.98 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bffccb6-706a-43a6-aea1-cdbd8b55336f")
+	)
+	(text "Layout note: Make sure these bypass caps are\nphysically close to the noted pin"
+		(exclude_from_sim no)
+		(at 96.52 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "607e68cf-8d5a-4922-91d2-98252d33186b")
+	)
+	(text "VDD (32/31)"
+		(exclude_from_sim no)
+		(at 49.53 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6fb86e52-5515-4d74-8ca3-5b39b116cc93")
+	)
+	(text "VDD (19/18)"
+		(exclude_from_sim no)
+		(at 49.53 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f9a38fb-6d60-4bf9-85f9-33f368f7e01f")
+	)
+	(text "VDDA (13/12)"
+		(exclude_from_sim no)
+		(at 93.98 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a6e262c3-d29c-4233-8cd1-0477c073b3d9")
+	)
+	(text "Page 86 of the data sheet states:\nEach power supply pair (V DD /V SS, V DDA /VSSA etc.) must be decoupled with filtering ceramic\ncapacitors. These capacitors must be placed as close as possible to, or\nbelow, the appropriate pins on the underside of the PCB to ensure the good functionality of\nthe device."
+		(exclude_from_sim no)
+		(at 143.51 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd1024ff-0461-49ac-8a9d-bd8486da0b00")
+	)
+	(text "VDDUSB (48/47)"
+		(exclude_from_sim no)
+		(at 93.98 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da6b0cd1-db42-4cc3-9a30-8022cb6802ae")
 	)
 	(junction
 		(at 54.61 78.74)
@@ -742,94 +839,6 @@
 			(type default)
 		)
 		(uuid "f0daa0e6-3b9b-4cb2-a856-2561d1f76ae4")
-	)
-	(text "VBat (1)"
-		(exclude_from_sim no)
-		(at 49.53 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29175dc7-ba34-474c-9847-7567b6855f83")
-	)
-	(text "VDD (64/63)"
-		(exclude_from_sim no)
-		(at 93.98 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2bffccb6-706a-43a6-aea1-cdbd8b55336f")
-	)
-	(text "Layout note: Make sure these bypass caps are\nphysically close to the noted pin"
-		(exclude_from_sim no)
-		(at 96.52 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "607e68cf-8d5a-4922-91d2-98252d33186b")
-	)
-	(text "VDD (32/31)"
-		(exclude_from_sim no)
-		(at 49.53 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fb86e52-5515-4d74-8ca3-5b39b116cc93")
-	)
-	(text "VDD (19/18)"
-		(exclude_from_sim no)
-		(at 49.53 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f9a38fb-6d60-4bf9-85f9-33f368f7e01f")
-	)
-	(text "VDDA (13/12)"
-		(exclude_from_sim no)
-		(at 93.98 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a6e262c3-d29c-4233-8cd1-0477c073b3d9")
-	)
-	(text "Page 86 of the data sheet states:\nEach power supply pair (V DD /V SS, V DDA /VSSA etc.) must be decoupled with filtering ceramic\ncapacitors. These capacitors must be placed as close as possible to, or\nbelow, the appropriate pins on the underside of the PCB to ensure the good functionality of\nthe device."
-		(exclude_from_sim no)
-		(at 143.51 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd1024ff-0461-49ac-8a9d-bd8486da0b00")
-	)
-	(text "VDDUSB (48/47)"
-		(exclude_from_sim no)
-		(at 93.98 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da6b0cd1-db42-4cc3-9a30-8022cb6802ae")
 	)
 	(symbol
 		(lib_id "power:+3V3")
