@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
@@ -25,7 +25,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 0e5bdfb3-0148-4e18-b1be-9f908a70530c)
+		(uuid "0e5bdfb3-0148-4e18-b1be-9f908a70530c")
 	)
 	(rectangle
 		(start 16.51 90.17)
@@ -37,7 +37,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 4a6d3f18-6726-4d39-924e-18aaedfedee7)
+		(uuid "4a6d3f18-6726-4d39-924e-18aaedfedee7")
 	)
 	(rectangle
 		(start 102.87 90.17)
@@ -49,7 +49,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 66ca552d-e0b6-45b1-8c36-c5931d1c776c)
+		(uuid "66ca552d-e0b6-45b1-8c36-c5931d1c776c")
 	)
 	(rectangle
 		(start 16.51 147.32)
@@ -61,7 +61,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 7ed1aff1-4dbe-4bcb-b2e3-2bbc728279d2)
+		(uuid "7ed1aff1-4dbe-4bcb-b2e3-2bbc728279d2")
 	)
 	(rectangle
 		(start 15.24 35.56)
@@ -73,7 +73,7 @@
 		(fill
 			(type none)
 		)
-		(uuid c542a942-20a7-4475-b719-0f45d921d264)
+		(uuid "c542a942-20a7-4475-b719-0f45d921d264")
 	)
 	(text "Power\n"
 		(exclude_from_sim no)
@@ -200,11 +200,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "169c3de2-c7c8-4610-b91b-a9f8fbbda482")
 		(property "Sheetname" "Speaker & Mics"
 			(at 148.59 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -214,6 +216,8 @@
 		)
 		(property "Sheetfile" "speaker_amp.kicad_sch"
 			(at 148.59 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,11 +246,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "4e5c0499-4917-48e7-9f4d-c201cc63ee81")
 		(property "Sheetname" "Interface"
 			(at 59.69 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,6 +262,8 @@
 		)
 		(property "Sheetfile" "interface.kicad_sch"
 			(at 59.69 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,11 +292,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "9397f066-146e-4896-a893-48ef11276451")
 		(property "Sheetname" "Microcontroller"
 			(at 60.96 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -298,6 +308,8 @@
 		)
 		(property "Sheetfile" "microcontroller.kicad_sch"
 			(at 60.96 52.6546 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,11 +338,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d6a7f71a-4da6-4997-9a3d-af77c0308253")
 		(property "Sheetname" "Power"
 			(at 62.23 152.9584 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -340,6 +354,8 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 62.23 165.6846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,11 +384,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f5ec4301-2f32-46c4-8f0d-2c5a15cb6fc4")
 		(property "Sheetname" "ADC"
 			(at 149.86 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,6 +400,8 @@
 		)
 		(property "Sheetfile" "adc.kicad_sch"
 			(at 149.86 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
