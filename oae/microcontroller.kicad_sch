@@ -3248,7 +3248,7 @@
 	)
 	(rectangle
 		(start 16.51 153.67)
-		(end 157.48 195.58)
+		(end 144.78 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -3394,18 +3394,6 @@
 		)
 		(uuid "819457d2-bc8a-4261-b63d-a423103a90d2")
 	)
-	(text "account for microcontroller pin capacitance. Look at new STM datasheet"
-		(exclude_from_sim no)
-		(at 88.646 189.738 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-			)
-		)
-		(uuid "82ee5761-39a6-4822-8b74-bb9583fd0026")
-	)
 	(text "I2C"
 		(exclude_from_sim no)
 		(at 163.322 110.236 0)
@@ -3427,9 +3415,9 @@
 		)
 		(uuid "a157fe49-26d0-4437-8d7a-ea0e9d827017")
 	)
-	(text "Assume stray capacitance equals 10pF according to \nstm32 datasheet (pg. 119)\n18 pF  from osscilator datasheet (pg. 1)\nCalculation from ST AN2867 (pg. 12)\ncl = (cl1 * cl2)/(cl1 + cl2) + cs\n18pF = (cl1 * cl2)/(cl1 + cl2) + 10pF\ncl1 = cl2 = 16pF\n"
+	(text "Assume stray capacitance equals 3-5pF according to \nstm32 datasheet (pg. 119)\n18 pF  from osscilator datasheet (pg. 1)\nCalculation from ST AN2867 (pg. 12)\ncl = (cl1 * cl2)/(cl1 + cl2) + cs\n18pF = (cl1 * cl2)/(cl1 + cl2) + 5pF\ncl1 = cl2 = 13pF  = C/2\nC = 26\n"
 		(exclude_from_sim no)
-		(at 94.234 169.926 0)
+		(at 89.662 177.546 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3500,16 +3488,6 @@
 			)
 		)
 		(uuid "e8d0e7b3-8aaf-4c99-82ed-f5994749bff4")
-	)
-	(text "look into CMOS oscillator"
-		(exclude_from_sim no)
-		(at 30.48 193.294 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f5b125db-3e5e-4467-9cce-5191b7234e14")
 	)
 	(text "Added Pull-Down Resistor"
 		(exclude_from_sim no)
@@ -7459,7 +7437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24pF"
+		(property "Value" "26pF"
 			(at 31.75 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7619,7 +7597,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "24pF"
+		(property "Value" "26pF"
 			(at 66.04 176.5363 0)
 			(show_name no)
 			(do_not_autoplace no)
