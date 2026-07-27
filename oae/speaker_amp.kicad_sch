@@ -3856,7 +3856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 127 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4364,7 +4364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 87.63 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4554,7 +4554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 238.76 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5293,7 +5293,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 71.12 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -5639,7 +5639,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 157.48 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -6385,7 +6385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6494,7 +6494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6761,7 +6761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 72.39 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7105,7 +7105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oae_mod:SOIC127P599X175-8N"
+		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
 			(at 238.76 77.47 0)
 			(hide yes)
 			(show_name no)
