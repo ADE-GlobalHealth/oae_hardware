@@ -18642,207 +18642,6 @@
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
-		(uuid "cf6ce174-12ea-444f-9ac2-1af8196892d5")
-		(at 164.005 112.525)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
-		(property "Reference" "U2"
-			(at 0 -1.43 0)
-			(layer "F.SilkS")
-			(uuid "792f05b3-3f79-44d0-94c6-ab86f7b36464")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "PCM1862DBT"
-			(at 0 1.43 0)
-			(layer "F.Fab")
-			(uuid "beb34a3d-de51-4a74-88df-e1700de7304c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "783f4a10-9af0-4667-8608-3d3d821fd71f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f8dd4e77-979c-4878-9dea-aedce2e5bc8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(path "/169c3de2-c7c8-4610-b91b-a9f8fbbda482/b9cdf4f3-9e45-44c8-a78e-c21b50e9e324")
-		(sheetname "/Speaker & Mics/")
-		(sheetfile "speaker_amp.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins)
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "54891ab9-3392-4b48-9ed7-954a11561b0e")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c2d4c4cd-4f54-4b06-9b98-b3dcb79a30ef")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2f488312-3b65-4af4-bdcb-e9e64498ea88")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "efcf3b48-dc32-4c98-89b7-05ebe20cc366")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "97eb3a83-2ffc-4bb0-aa92-97974c724af3")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a97b34b8-46b1-45ab-81f2-6bdc8d8a2efe")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f43a94b3-507b-4434-baf2-9378cc1d5eae")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "89d7f38b-7590-435f-b118-e79ea2fc7080")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "629ba808-6a5b-42e5-b8d5-07b323b92a2e")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5fef9392-a622-40d1-ad0d-ab0b88b90efa")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "97b8b7bb-5343-46ae-89a5-e6a4702c0f7c")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.775 0)
-			(size 0.9 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(uuid "0645539d-ffa0-4260-b388-a6bdaf248885")
-		)
-		(pad "2" smd roundrect
-			(at 0.775 0)
-			(size 0.9 0.95)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(uuid "b5b0662d-0071-4310-af78-10b5be68afb7")
-		)
-		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
-		(layer "F.Cu")
 		(uuid "d3355597-500d-4c01-b892-075ef0029cfd")
 		(at 145.5 88.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -23900,6 +23699,14 @@
 		(uuid "6be046e6-8976-4f19-a499-3afa0c502358")
 	)
 	(segment
+		(start 133.5 105.25)
+		(end 133.5 107.25)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "6d3b965a-7414-4870-82b1-75a679e7d8b5")
+	)
+	(segment
 		(start 129.785 99.620201)
 		(end 128.081 99.620201)
 		(width 0.1524)
@@ -24202,14 +24009,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "abcb8b8f-4c3c-495f-ab29-654806b4639a")
-	)
-	(segment
-		(start 133.5 105.25)
-		(end 133.5 103.25)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "ac7f34b5-0a28-4480-84f6-0807ab59facd")
 	)
 	(segment
 		(start 171.919799 90.120201)
@@ -25020,14 +24819,6 @@
 		(uuid "a596a0d4-c853-4b29-9337-99cfdf0c590b")
 	)
 	(via
-		(at 133.5 103.25)
-		(size 0.6096)
-		(drill 0.3048)
-		(layers "F.Cu" "B.Cu")
-		(net "GND")
-		(uuid "a756293d-32b9-4922-89fb-2fd0a4c8d46e")
-	)
-	(via
 		(at 179.5 111.75)
 		(size 0.6096)
 		(drill 0.3048)
@@ -25122,6 +24913,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "d081da7c-780d-4427-9e51-34ce97047255")
+	)
+	(via
+		(at 133.5 107.25)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "d48c02f4-284a-4780-88d1-8ad318a5cbb3")
 	)
 	(via
 		(at 169.5 106.75)
