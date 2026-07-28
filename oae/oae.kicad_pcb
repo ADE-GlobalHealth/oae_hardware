@@ -27748,6 +27748,14 @@
 		(uuid "849e29b3-2c98-482e-9864-c237328e3e8a")
 	)
 	(segment
+		(start 129.918399 87.2786)
+		(end 127.26 84.620201)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "I2C1_SCL")
+		(uuid "9297877e-a38d-42e1-bddf-d0868541995d")
+	)
+	(segment
 		(start 127.0952 94.701201)
 		(end 127.1762 94.620201)
 		(width 0.1524)
@@ -27764,20 +27772,20 @@
 		(uuid "a6f76776-90d7-4e22-a8d6-705f617cd9a3")
 	)
 	(segment
+		(start 133.06674 87.2786)
+		(end 129.918399 87.2786)
+		(width 0.1524)
+		(layer "F.Cu")
+		(net "I2C1_SCL")
+		(uuid "c06f8115-d7cd-49de-9cbb-b369932783fc")
+	)
+	(segment
 		(start 156.267299 87.620201)
 		(end 156.267299 87.599571)
 		(width 0.1524)
 		(layer "F.Cu")
 		(net "I2C1_SCL")
 		(uuid "caead380-7697-42b7-8e86-64e99a2041ad")
-	)
-	(segment
-		(start 133.06674 87.2786)
-		(end 129.218198 87.2786)
-		(width 0.1524)
-		(layer "F.Cu")
-		(net "I2C1_SCL")
-		(uuid "d04c8a14-c11d-4492-a8cd-691f28a4cb70")
 	)
 	(segment
 		(start 127.26 84.620201)
