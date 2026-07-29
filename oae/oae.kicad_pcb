@@ -16107,7 +16107,7 @@
 			(at 0 -4.5 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f1d53adb-bdb9-4524-acd1-257bb71ab2a7")
+			(uuid "f3c06cbf-35bd-4eae-adab-4872d884af4b")
 			(effects
 				(font
 					(size 1 1)
@@ -16118,7 +16118,7 @@
 		(property "Value" "AZ1117-3.3"
 			(at 0 4.5 90)
 			(layer "F.Fab")
-			(uuid "07f85510-8180-449d-b61e-21e95e10895b")
+			(uuid "396be319-28a5-4759-84ab-4ac280daf46f")
 			(effects
 				(font
 					(size 1 1)
@@ -16130,7 +16130,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1afb6ec-178e-4089-9f3f-ba7203681d01")
+			(uuid "92df4ce0-5239-4f1b-939f-42e9b3824368")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16141,7 +16141,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "94e28c78-a856-4dd0-9824-56e13028f1a0")
+			(uuid "98e84c1a-9822-4d8d-94f6-7454b0ef8cf3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23618,6 +23618,18 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "OAE Early Hearing Loss Detection\nDesign Justice Studio (DJS)\nQuaker Board (Rev. D)\nSummer 2026\n\nKuhu Jayaswal\nBrandon Spiller"
+		(at 178.5 118.7 0)
+		(layer "B.SilkS")
+		(uuid "c32988ad-d1e5-4ff3-83d4-63593ca7056c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
