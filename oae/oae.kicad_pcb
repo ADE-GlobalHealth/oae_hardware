@@ -23414,7 +23414,7 @@
 		)
 	)
 	(gr_text "SDIO"
-		(at 143 104.25 90)
+		(at 143 104.75 90)
 		(layer "F.SilkS")
 		(uuid "d77ad21f-6a58-495d-a43d-d397dcfc72b7")
 		(effects
